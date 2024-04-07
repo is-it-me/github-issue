@@ -1,0 +1,18 @@
+.badge  .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #444444;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  white-space: break-spaces;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.badge:hover .tooltiptext {
+  visibility: visible;
+}
